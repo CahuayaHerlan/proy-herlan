@@ -1,0 +1,47 @@
+/* Archivo: styles.css */
+
+/* Estilo general para el contenedor del menú */
+.menu {
+    list-style: none; /* Quitar viñetas */
+    margin: 10px;
+    padding: 10px;
+    display: flex; /* Alinear los elementos en línea horizontal */
+    justify-content: center; /* Centrar los elementos */
+    background-color: #333; /* Fondo oscuro */
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+}
+  
+  /* Estilo para los elementos de la lista */
+.menu li {
+    margin: 0 17px; /* Espaciado entre los enlaces */
+}
+  
+  /* Estilo para los enlaces */
+  .menu li a {
+    text-decoration: none; /* Quitar subrayado */
+    color: white;
+/*    padding: 10px; /* Espaciado interno */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animación */
+}
+  
+  /* Hover para los enlaces */
+.menu li a:hover {
+    background-color: #575757; /* Fondo más claro al pasar el cursor */
+    color: #ffeb3b; /* Color del texto al pasar el cursor */
+}
+
+  /* Estilo para un enlace activo */
+  .menu li a.active {
+    background-color: #4CAF50; /* Fondo verde */
+    color: white;
+}
+
+.padre .pie{
+  grid-area: cont5;
+  background-color: #333;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

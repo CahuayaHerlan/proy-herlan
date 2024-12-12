@@ -1,0 +1,17 @@
+.padre .hijo4 .card
+{
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+};
+
+.padre .hijo4 .img
+{
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden; 
+};
+
+

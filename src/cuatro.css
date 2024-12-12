@@ -1,0 +1,39 @@
+.padre .hijo4
+{
+    display: grid;
+    grid-gap: 5px;
+    border-radius: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "intro intro"
+    "carr card"
+    "acc acc"
+    "tabla tabla";
+
+}
+
+.padre .hijo4 .intro
+{
+    grid-area: intro;
+}
+
+.padre .hijo4 .carr
+{
+    grid-area: carr;
+}
+
+.padre .hijo4 .card
+{
+    grid-area: card;
+}
+
+.padre .hijo4 .acc
+{
+    grid-area: acc;
+}
+
+.padre .hijo4 .tabla
+{
+    grid-area: tabla;
+}

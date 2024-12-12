@@ -1,0 +1,38 @@
+.padre .hijo5
+{
+    display: grid;
+    grid-gap: 5px;
+    border-radius: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "uno uno"
+    "dos tres"
+    "cinco cuatro";
+
+}
+
+.padre .hijo5 .uno
+{
+    grid-area: uno;
+}
+
+.padre .hijo5 .dos
+{
+    grid-area: dos;
+}
+
+.padre .hijo5 .tres
+{
+    grid-area: tres;
+}
+
+.padre .hijo5 .cuatro
+{
+    grid-area: cuatro;
+}
+
+.padre .hijo5 .cinco
+{
+    grid-area: cinco;
+}
